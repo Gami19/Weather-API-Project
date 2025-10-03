@@ -3,22 +3,29 @@
   "version": "1.0.0",
   "description": "Solution to the roadmap.sh project [Weather API] (https://roadmap.sh/projects/weather-api-wrapper-service)",
   "main": "index.js",
-  "type":"module" ,
+  "type": "module",
   "scripts": {
-    "start": "node dist/server.js", 
-    "dev": "nodemon --exec 'node --loader ts-node/esm' src/server.ts", 
-    "build": "tsc" 
+    "start": "node dist/server.js",
+    "dev": "nodemon --exec 'node --loader ts-node/esm' src/server.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/axios": "^0.9.36",
-    "@types/express": "^5.0.3",
-    "@types/ioredis": "^4.28.10",
-    "@types/node": "^24.6.2",
-    "nodemon": "^3.1.10",
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.21",
+    "@types/ioredis": "^5.0.0",
+    "@types/node": "^20.14.12",
+    "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "ioredis": "^5.4.1"
   }
 }
