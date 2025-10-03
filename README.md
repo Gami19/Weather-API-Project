@@ -1,0 +1,1 @@
+Solution to the roadmap.sh project [Weather API] (https://roadmap.sh/projects/weather-api-wrapper-service)
